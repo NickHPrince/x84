@@ -133,7 +133,7 @@ on *irc.efnet.org*.
 .. _Sauce: https://github.com/tehmaze/sauce
 .. _syncterm: http://syncterm.bbsdev.net/
 .. _python: https://www.python.org/
-.. _pip: http://guide.python-distribute.org/installation.html#installing-pip
+.. _pip: https://pip.pypa.io/en/stable/installing/
 .. _Documentation: http://x84.readthedocs.org/
 .. _developers: https://x84.readthedocs.org/en/latest/developers.html
 .. _clients: http://x84.readthedocs.org/en/latest/project_details.html#compatible-clients
