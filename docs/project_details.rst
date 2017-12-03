@@ -61,6 +61,22 @@ Alternatively, you can always use port forwarding on a NAT firewall.
 Linux
 -----
 
+x84 quickstart install can be added to systemd services startup with /etc/systemd/system/x84.service
+ 
+  [Unit]
+  Description=x84 BBS
+  After=multi-user.target
+
+  [Service]
+  Type=simple
+  User=yourusername
+  ExecStartPre=/bin/sleep 30
+  ExecStart=/usr/bin/python /usr/local/bin/x84
+  Restart=always
+
+  [Install]
+  WantedBy=multi-user.target
+
 using privbind_, run the BBS as user 'nobody', group 'nogroup'::
 
   sudo privbind -u nobody -g nogroup x84
